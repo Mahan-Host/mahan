@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>HungerGram</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main id="main">
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <h2 class="portfolio-details-header">HungerGram</h2>
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/hungergram/img/1.jpg"
+                      alt=""
+                    />
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/hungergram/img/2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+              <div class="col-lg-4">
+                <div class="portfolio-info">
+                  <ul>
+                    <li><strong>Category</strong>: Web</li>
+                    <br>
+                    <li><strong>Tags:</strong></li>
+                    <li><ul>
+                      <li><span class="i-d">/ </span>Twitter Bot</li>
+                      <li><span class="i-d">/ </span>Python</li>
+                      <li><span class="i-d">/ </span>REST API</li>
+                    </ul></li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+            <p>
+              This is a Twitter bot that attempts to channel activism through social media in a playful way.
+              <br />
+              <br />
+              The purpose of this Twitter bot is to target a few selected hashtags that are connected to food, and transform the experiences concerning these hashtags into something completely contradictory by replying with photos of starving African children. A lot of the interaction on social media is shallow and the purpose of this project was to make people aware of problems in other parts of the world, at least on subconscious level. The reactions to the bot were mixed. Of the ~1200 replies made by the bot, most were ignored. When the bot got a reply from the recipient, some of them were negative although most people absorbed the message and were positive. The bot even gained 6 followers. All in all it was an experiment, and it was concluded that there is potential for conveying a serious message on social media.
+              <br />
+              <br />
+              The bot was written in Python using the REST API. In plain language the bot conducts the following actions:
+              <br />
+              <br />
+              <ol id="hungergram-list">
+                <li>
+                  <span class="hungergram-number">1 &nbsp;</span>
+                  Search for tweet containing specific hashtag. (#foodporrn,
+                  #foodporn, #instafood, #yummy, #foodie, or #foodgasm)
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">2 &nbsp;</span>
+                  If the tweet is not sent by a user account already targeted by
+                  a HungerGram tweet, proceed.
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">3 &nbsp;</span>
+                  Check if the tweet contains a photo or a link to an image file
+                  on Instagram. If it does, continue to compose a tweet and send
+                  it at the analysed tweet.
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">4 &nbsp;</span>
+                  Choose random photo and text string from preset list and
+                  compose tweet for reply to the analysed tweet.
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">5 &nbsp;</span>
+                  The ID of the user account posting the original tweet is added
+                  to a list, in order to avoid tweeting the same account again.
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">6 &nbsp;</span>A break
+                  of 30 to 70 seconds is taken to emulate writing and posting
+                  time of a tweet. This is done to avoid the bot being flagged
+                  as an automated process.
+                </li>
+                <br />
+                <li>
+                  <span class="hungergram-number">7 &nbsp;</span>Rinse
+                  and repeat.
+                </li>
+              </ol>
+              <br />
+              The twitter link for the bot can be found below although the bot
+              itself is no longer active.
+              <br />
+              <br />
+              <a class="project-button" href="https://twitter.com/HungerGram" target="_blank">
+                Twitter Link
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Details Section -->
+    </main>
+    <!-- End #main -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
